@@ -395,7 +395,7 @@ def handle(msg):
         return
 
 
-bot = telepot.Bot("543465463:AAEP7rB4AedeLL8NRAekzShDhAn-SgZ4xSY")
+bot = telepot.Bot("API KEY here")
 
 MessageLoop(bot, {'chat': handle, 'callback_query': handle_markupkeyboard}).run_as_thread()
 print("listening...")
